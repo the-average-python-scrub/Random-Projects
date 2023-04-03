@@ -35,17 +35,14 @@ def fortyfive_fortyfive_ninety():
 
 def random_triangle():
     a = random.randint(0, 15)
-    b = random.randint(0, 15)
-    c = random.randint(0, 15)
     print(a)
-    print(b)
-    print(c)
-    if a > 1 <= 5.0:
+
+    if 1 < a <= 5.0:
         equi_triangle()
-    elif b > 5 <= 10.0:
+    elif 5 < a <= 10.0:
         right_triangle()
 
-    elif c > 10 <= 15.0:
+    elif 10 < a <= 15.0:
         fortyfive_fortyfive_ninety()
 
 
